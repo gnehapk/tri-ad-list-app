@@ -1,0 +1,25 @@
+.VotesContainer {
+  display: flex;
+  flex-direction: row;
+
+  .arrow {
+    height: 50px;
+    cursor: pointer;
+  }
+  
+  .votesCnt {
+    font-weight: bold;
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+
+  @media (min-width: 992px) {
+    .votesCnt {
+      font-size: 1.6rem;
+    }
+
+    .arrow {
+      height: 65px;
+    }
+  }
+}

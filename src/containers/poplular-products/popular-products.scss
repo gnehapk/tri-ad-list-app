@@ -1,0 +1,16 @@
+.list {
+    left: 10%;
+    position: absolute;
+}
+
+.title {
+    display: flex;
+    font-size: 2.5rem;
+    justify-content: center;
+}
+
+@media (min-width: 992px) {
+    .list{
+        left: 20%;
+    }
+}

@@ -1,0 +1,30 @@
+@import  '../../color-variables.scss';
+
+.avatarContainer {
+  display: flex;
+  flex-direction: row;
+
+  .avatar {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    padding: 10px;
+  }
+
+  .submitBy {
+    font-size: 1rem;
+    color: $color-silver;
+  }
+
+  @media (min-width: 992px) {
+    .avatar {
+      height: 50px;
+      width: 50px;
+      padding: 15px;
+    }
+
+    .submitBy {
+      font-size: 1.6rem;
+    }
+  }
+}
